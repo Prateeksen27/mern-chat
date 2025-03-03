@@ -1,4 +1,4 @@
-export const baseUrl = "http://localhost:5000/api"
+export const baseUrl = import.meta.env.URL
 
 export const postRequest = async (url,body)=>{
         const respoce = await fetch(url, {
