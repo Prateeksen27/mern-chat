@@ -8,7 +8,7 @@ import Register from './Pages/Register'
 import Chat from './Pages/Chat'
 import Navbar from './Components/Navbar'
 import { AuthContext } from './Context/AuthContext'
-import { ChatContextProvider } from './Context/chatContext'
+import { ChatContextProvider } from './Context/ChatContext'
 function App() {
   const {user} = useContext(AuthContext)
 
