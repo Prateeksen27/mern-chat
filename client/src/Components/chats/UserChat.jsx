@@ -3,8 +3,8 @@ import { useFetchRecipientUser } from '../../hooks/useFetchRecipient';
 import { Stack } from 'react-bootstrap';
 import moment from 'moment';
 import avatar from '../../assets/avatar.svg';
-import { ChatContext } from '../../Context/ChatContext';
 import { unreadNotificationsFuntions } from '../../utils/unreadNotifications';
+import { ChatContext } from '../../Context/ChatContext';
 import { useFetchLatestMessage } from '../../hooks/useFetchLatestMessage';
 
 const UserChat = ({ chat, user }) => {
