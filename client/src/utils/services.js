@@ -1,4 +1,4 @@
-export const baseUrl = import.meta.env.VITE_EXTERNAL_API_URL
+export const baseUrl = "https://mern-chat-k2j9.onrender.com/api"
 
 export const postRequest = async (url,body)=>{
         const respoce = await fetch(url, {
