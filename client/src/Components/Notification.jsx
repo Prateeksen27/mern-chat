@@ -1,5 +1,5 @@
 import React, { useContext, useState } from 'react';
-import { ChatContext } from '../Context/chatContext';
+import { ChatContext } from '../Context/ChatContext';
 import { AuthContext } from '../Context/AuthContext';
 import { unreadNotificationsFuntions } from '../utils/unreadNotifications';
 import moment from 'moment';
