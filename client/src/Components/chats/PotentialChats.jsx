@@ -1,6 +1,6 @@
 import React from 'react'
 import { useContext } from 'react'
-import { ChatContext } from '../../Context/chatContext'
+import { ChatContext } from '../../Context/ChatContext'
 import { AuthContext } from '../../Context/AuthContext'
 const PotentialChats = () => {
     const {potentialChats,createChat,onlineUsers} =useContext(ChatContext)
